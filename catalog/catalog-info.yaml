@@ -12,6 +12,8 @@ metadata:
   annotations:
     backstage.io/kubernetes-label-selector: app.kubernetes.io/part-of=emoodji
 spec:
+  targets:
+    - ./systems/system.yaml
   type: service
   lifecycle: experimental
   owner: team-vmware-tanzu-se
