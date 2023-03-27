@@ -9,3 +9,5 @@ spec:
   targets:
     - ./systems/system.yaml
     - ./components/service/component.yaml
+    - ./groups/org.yaml
+    - ./domains/domain.yaml
