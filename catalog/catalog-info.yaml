@@ -1,19 +1,10 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: Location
 metadata:
   name: emoodji
-  description: Emoodji
-  tags:
-  - app-accelerator
-  - java
-  - spring
-  - web
-  - tanzu
+  description: This is an application that loves emoodjis
   annotations:
-    backstage.io/kubernetes-label-selector: app.kubernetes.io/part-of=emoodji
+    'backstage.io/techdocs-ref': dir:.
 spec:
   targets:
     - ./systems/system.yaml
-  type: service
-  lifecycle: experimental
-  owner: team-vmware-tanzu-se
