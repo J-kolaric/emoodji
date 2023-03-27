@@ -20,5 +20,3 @@ spec:
   lifecycle: experimental
   owner: team-vmware-tanzu-se
   system: emoodji
-  dependsOn:
-    - Resource:database-postgres
