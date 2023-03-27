@@ -12,7 +12,7 @@ spec:
     git:
       url: https://github.com/J-kolaric/emoodji
       ref:
-        branch: testing
+        branch: main
   params:
   - name: annotations
     value:
