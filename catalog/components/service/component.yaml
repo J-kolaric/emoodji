@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: emoodji
+  description: Service collecting all emojis
+  tags:
+    - java
+    - spring
+    - emoji
+    - emoodji
+    - diversity
+  annotations:
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=emoodji'
+    'backstage.io/techdocs-ref': dir:.
+  links:
+    - url: https://spring.io/
+      title: Spring makes Java simple, modern, productive, reactive, cloud-ready
+spec:
+  type: service
+  lifecycle: experimental
+  owner: team-vmware-tanzu-se
+  system: emoodji
+  dependsOn:
+    - Resource:database-postgres
