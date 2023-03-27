@@ -21,10 +21,10 @@ spec:
     value:
       type: openapi
       location:
-        path: /v3/api-docs
+        path: "/v3/api-docs"
       owner: default-team
       system: emoodji
-      description: Emoodji API
+      description: "Emoodji API"
   build:
     env:
     - name: BP_JVM_VERSION
