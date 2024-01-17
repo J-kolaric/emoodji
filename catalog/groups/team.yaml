@@ -26,12 +26,23 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: kfrederic
+  name: j-kolaric
 spec:
   profile:
-    displayName: Frederic KLEIN
+    displayName: Julien KOLARIC
+    email: julien.kolaric@broadcom.com
+    picture: https://media.licdn.com/dms/image/C4E03AQEKoZFQAJqqeQ/profile-displayphoto-shrink_800_800/0/1644327309724?e=2147483647&v=beta&t=UbZUtDSBVZVbSm8ATLcQ6uzytvWTpYiVgY7L0i0uyhw
+  memberOf: [team-vmware-tanzu-se]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: fmartin
+spec:
+  profile:
+    displayName: Fabien MARTIN
     email: kfrederic@vmware.com
-    picture: https://media.licdn.com/dms/image/C4D03AQF12iW21mSScA/profile-displayphoto-shrink_800_800/0/1516613556351?e=2147483647&v=beta&t=tlHFv-ISivQEmwIJrNPCu4KzpU_W7kNjesBj1w0lZMk
+    picture: https://media.licdn.com/dms/image/D4E03AQE0gkwocKb0FA/profile-displayphoto-shrink_800_800/0/1667407469438?e=1710979200&v=beta&t=HHRmapuLlftpu5O5p5fpf67UJPh0IQCiZ99SMCzOqsQ
   memberOf: [team-vmware-tanzu-se]
 ---
 apiVersion: backstage.io/v1alpha1
